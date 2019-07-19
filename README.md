@@ -1,44 +1,6 @@
-# Data Structures and Algorithms
-
-My implementation of some popular data structures and algorithms and interview questions relating to them in Python 3 and C++
-
-## Index:
-
-- [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
-  - [Index:](#Index)
-  - [Content:](#Content)
-    - [Bit Manipulation](#Bit-Manipulation)
-    - [Dynamic Programming](#Dynamic-Programming)
-    - [Graph](#Graph)
-    - [Heaps](#Heaps)
-    - [Linked List](#Linked-List)
-        - [Singly Linked List](#Singly-Linked-List)
-    - [Mathematics](#Mathematics)
-    - [Matrix](#Matrix)
-    - [Misc](#Misc)
-    - [String or Array](#String-or-Array)
-      - [Searching](#Searching)
-      - [Sorting](#Sorting)
-    - [Tree](#Tree)
-        - [Binary Search Tree](#Binary-Search-Tree)
-        - [Binary Tree](#Binary-Tree)
-        - [Trie](#Trie)
-
 ------------------------------------------------------------------------------
 ## Content:
 
-### Bit Manipulation
-
-Contains some popular questions based on *bit manipulations*.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Check whether a given number n is a power of 2 or 0                            |[py](Bit_Manipulation/Check_Pow_2.py)         |[cpp](Bit_Manipulation/Check_Pow_2.cpp)|
-|Count number of bits needed to be flipped to convert A to B                    |[py](Bit_Manipulation/Count_Bits_Flip_A_B.py) |[cpp](Bit_Manipulation/Count_Bits_Flip_A_B.cpp)|
-|Find the two non-repeating elements in an array of repeating elements          |[py](Bit_Manipulation/Find_Non_Repeating.py)  |[-](Bit_Manipulation/Find_Non_Repeating.cpp)|
-|Find the next greater and next smaller number with same number of set bits     |[py](Bit_Manipulation/Next_Number.py)         |[-](Bit_Manipulation/Next_Number.cpp)|
-
-------------------------------------------------------------------------------
 ### Dynamic Programming
 
 Contains some popular questions based on *dynamic programming approach*. 
@@ -77,18 +39,6 @@ Contains implementation of Graph data structure and some common questions and al
 |	Topological Sort                                                                            |[py](Graph/TopologicalSort.py)|[-](Graph/TopologicalSort.cpp)|
 
 ------------------------------------------------------------------------------
-### Heaps
-
-Contains implementation of Heap data structure and some common questions and algorithms related to it.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|	Heap Sort algorithm                                                                         |[py](Heaps/HeapSort.py)|[-](Heaps/HeapSort.cpp)|
-|   Max Heap implementation                                                                     |[py](Heaps/MaxHeap.py)|[-](Heaps/MaxHeap.cpp)|
-|   Min Heap implementation                                                                     |[py](Heaps/MinHeap.py)|[-](Heaps/MinHeap.cpp)|
-|Find the median for an incoming stream of numbers after each insertion in the list of numbers  |[py](Heaps/RunningMedian.py)|[-](Heaps/RunningMedian.cpp)|
-
-------------------------------------------------------------------------------
 ### Linked List
 
 Contains implementation of Linked List data structure and some common questions and algorithms related to it.
@@ -114,17 +64,7 @@ Contains implementation of Linked List data structure and some common questions 
 |	Implementation of Singly Linked List                                                        |[py](LinkedList/SinglyLinkedList.py)|[cpp](LinkedList/SinglyLinkedList.cpp)|
 |Skip M nodes and then delete N nodes alternately                                               |[py](LinkedList/SkipMDeleteN.py)|[cpp](LinkedList/SkipMDeleteN.cpp)|
 
-------------------------------------------------------------------------------
-### Mathematics
 
-Contains implementation of some common questions and algorithms related to Mathematics.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Fine the number of trailing zeros in factorial of a number         |[py](Mathematics/Factorial_Trailing_Zeros.py)|[cpp](Mathematics/Factorial_Trailing_Zeros.cpp)|
-|Find the greatest common divisor of 2 numbers                      |[py](Mathematics/GCD.py)|[-](Mathematics/GCD.cpp)|
-|	print all prime factors of a given number                       |[py](Mathematics/Prime_factors.py)|[-](Mathematics/Prime_factors.cpp)|
-|	Sieve of Eratosthenes (find prime numbers up to n efficiently)  |[py](Mathematics/Sieve_of_Eratosthenes.py)|[-](Mathematics/Sieve_of_Eratosthenes.cpp)|
 
 ------------------------------------------------------------------------------
 ### Matrix
@@ -137,14 +77,6 @@ Contains some common algorithms and questions based on *Matrix*.
 |Search in a row wise and column wise sorted matrix                                         |[py](Matrix/SearchRowColumnSorted.py)|[-](Matrix/SearchRowColumnSorted.cpp)|
 |Given a 2D array, print it in spiral form                                                  |[py](Matrix/SpiralPrint.py)|[-](Matrix/SpiralPrint.cpp)|
 
-------------------------------------------------------------------------------
-### Misc
-
-Contains some miscellaneous questions and algorithms.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Given a dictionary, write a function to flatten it                             |[py](Misc/Flatten_Dictionary.py)|[-](Misc/Flatten_Dictionary.cpp)|
 
 ------------------------------------------------------------------------------
 ### String or Array
@@ -162,25 +94,6 @@ Contains some common questions and algorithms related to strings or 1-d arrays.
 |Find index of given number in a sorted array shifted by an unknown offset          |[py](String_or_Array/Shifted_Array_Search.py)|[-](String_or_Array/Shifted_Array_Search.cpp)|
 |Print all permutations of a given string                                           |[py](String_or_Array/StringPermutations.py)|[-](String_or_Array/StringPermutations.cpp)|
 
-#### Searching
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Linear Search in an array          |[py](String_or_Array/Searching/Linear_Search.py)|[-](String_or_Array/Searching/Linear_Search.cpp)|
-|Binary Search in an array          |[py](String_or_Array/Searching/Binary_Search.py)|[-](String_or_Array/Searching/Binary_Search.cpp)|
-|Interpolation Search in an array   |[py](String_or_Array/Searching/Interpolation_Search.py)|[-](String_or_Array/Searching/Interpolation_Search.cpp)|
-
-#### Sorting
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Bubble sort Algorithm                                                              |[py](String_or_Array/Sorting/Bubble_Sort.py)|[-](String_or_Array/Sorting/Bubble_Sort.cpp)|
-|Counting sort Algorithm (non-comparision based sorting)                            |[py](String_or_Array/Sorting/Counting_Sort.py)|[-](String_or_Array/Sorting/Counting_Sort.cpp)|
-|Insertion sort Algorithm                                                           |[py](String_or_Array/Sorting/Insertion_Sort.py)|[-](String_or_Array/Sorting/Insertion_Sort.cpp)|
-|Sort an array where each element is at most k places away from its sorted position |[py](String_or_Array/Sorting/K_Messed_Sort.py)|[-](String_or_Array/Sorting/K_Messed_Sort.cpp)|
-|Merge Sort Algorithm                                                               |[py](String_or_Array/Sorting/Merge_Sort.py)|[-](String_or_Array/Sorting/Merge_Sort.cpp)|
-|Quick Sort Algorithm using last element as pivot                                   |[py](String_or_Array/Sorting/Quick_Sort.py)|[-](String_or_Array/Sorting/Quick_Sort.cpp)|
-|Selection sort Algorithm                                                           |[py](String_or_Array/Sorting/Selection_Sort.py)|[-](String_or_Array/Sorting/Selection_Sort.cpp)|
 
 ------------------------------------------------------------------------------
 ### Tree
@@ -212,11 +125,5 @@ Contains implementation of Tree data structure and some common questions and alg
 |Remove nodes on root to leaf paths of length < K                               |[py](Tree/BinaryTree/Remove_Path_Less_Than_K.py)|[-](Tree/BinaryTree/Remove_Path_Less_Than_K.cpp)|
 |Given a Perfect Binary Tree, reverse the alternate level nodes of the tree     |[py](Tree/BinaryTree/Reverse_Alternate_Levels_PBT.py)|[-](Tree/BinaryTree/Reverse_Alternate_Levels_PBT.cpp)|
 |Print Nodes in Top View of Binary Tree                                         |[py](Tree/BinaryTree/Top_View.py)|[-](Tree/BinaryTree/Top_View.cpp)|
-
-##### Trie
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Implementation of Trie data structure                                          |[py](Tree/Trie/Trie.py)|[-](Tree/Trie/Trie.cpp)|
 
 ------------------------------------------------------------------------------
