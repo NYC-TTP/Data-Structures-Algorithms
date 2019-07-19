@@ -1,5 +1,20 @@
+### Strings/Arrays/Lists
+
+Contains some common questions and algorithms related to strings or 1-d arrays/lists.
+
+| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
+|-----------------------------------|:------------------:|:-----------------:|
+|Find the longest substring with k unique characters in a given string              |[py](String_or_Array/K_Unique_Substring.py)|[-](String_or_Array/K_Unique_Substring.cpp)|
+|Find a pattern in a string using KMP search algorithm                              |[py](String_or_Array/KMP_StringMatching.py)|[-](String_or_Array/KMP_StringMatching.cpp)|
+|Find the Kth smallest element in the array                                         |[py](String_or_Array/Kth_Smallest.py)|[-](String_or_Array/Kth_Smallest.cpp)|
+|Find a pair in an array with sum x                                                 |[py](String_or_Array/PairSum_is_X.py)|[-](String_or_Array/PairSum_is_X.cpp)|
+|Print all valid (properly opened and closed) combinations of n pairs of parentheses|[py](String_or_Array/ParenthesesCombinations.py)|[-](String_or_Array/ParenthesesCombinations.cpp)|
+|reverse the order of the words in the array                                        |[py](String_or_Array/Sentence_Reverse.py)|[-](String_or_Array/Sentence_Reverse.cpp)|
+|Find index of given number in a sorted array shifted by an unknown offset          |[py](String_or_Array/Shifted_Array_Search.py)|[-](String_or_Array/Shifted_Array_Search.cpp)|
+|Print all permutations of a given string                                           |[py](String_or_Array/StringPermutations.py)|[-](String_or_Array/StringPermutations.cpp)|
+
+
 ------------------------------------------------------------------------------
-## Content:
 
 ### Dynamic Programming
 
@@ -79,23 +94,7 @@ Contains some common algorithms and questions based on *Matrix*.
 
 
 ------------------------------------------------------------------------------
-### String or Array
 
-Contains some common questions and algorithms related to strings or 1-d arrays.
-
-| 			Topic/Question			                                            |	Code in Python                              | Code in C++ |
-|-----------------------------------|:------------------:|:-----------------:|
-|Find the longest substring with k unique characters in a given string              |[py](String_or_Array/K_Unique_Substring.py)|[-](String_or_Array/K_Unique_Substring.cpp)|
-|Find a pattern in a string using KMP search algorithm                              |[py](String_or_Array/KMP_StringMatching.py)|[-](String_or_Array/KMP_StringMatching.cpp)|
-|Find the Kth smallest element in the array                                         |[py](String_or_Array/Kth_Smallest.py)|[-](String_or_Array/Kth_Smallest.cpp)|
-|Find a pair in an array with sum x                                                 |[py](String_or_Array/PairSum_is_X.py)|[-](String_or_Array/PairSum_is_X.cpp)|
-|Print all valid (properly opened and closed) combinations of n pairs of parentheses|[py](String_or_Array/ParenthesesCombinations.py)|[-](String_or_Array/ParenthesesCombinations.cpp)|
-|reverse the order of the words in the array                                        |[py](String_or_Array/Sentence_Reverse.py)|[-](String_or_Array/Sentence_Reverse.cpp)|
-|Find index of given number in a sorted array shifted by an unknown offset          |[py](String_or_Array/Shifted_Array_Search.py)|[-](String_or_Array/Shifted_Array_Search.cpp)|
-|Print all permutations of a given string                                           |[py](String_or_Array/StringPermutations.py)|[-](String_or_Array/StringPermutations.cpp)|
-
-
-------------------------------------------------------------------------------
 ### Tree
 
 Contains implementation of Tree data structure and some common questions and algorithms related to it.
